@@ -24,6 +24,7 @@ if __name__ == '__main__':
     setup(
         name=env_dict.get('MODULE_NAME'),
         version=env_dict.get('VERSION'),
+        package_dir={'': 'get_time'},
 
         url=env_dict.get('GITHUB_URL'),
         description='time auxiliary module',

@@ -1,8 +1,0 @@
-README
-setup.py
-time.py
-time_module.egg-info/PKG-INFO
-time_module.egg-info/SOURCES.txt
-time_module.egg-info/dependency_links.txt
-time_module.egg-info/requires.txt
-time_module.egg-info/top_level.txt
