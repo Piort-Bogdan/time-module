@@ -21,8 +21,6 @@ def env_variables() -> None:
 
 if __name__ == '__main__':
     env_variables()
-    print(env_dict)
-    print(get_requirements())
     setup(
         name=env_dict.get('MODULE_NAME'),
         version=env_dict.get('VERSION'),
