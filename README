@@ -1,0 +1,5 @@
+**** Time Module ****
+
+** How to install
+
+pip install git+https://github.com/Piort-Bogdan/time-module.git

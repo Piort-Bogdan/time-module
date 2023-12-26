@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: time-module
+Version: 0.0.1
+Summary: time auxiliary module
+Home-page: git
+Requires-Dist: astral==3.2
