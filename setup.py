@@ -1,6 +1,6 @@
 import os
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 env_dict = {}
 
@@ -25,10 +25,12 @@ if __name__ == '__main__':
         name=env_dict.get('MODULE_NAME'),
         version=env_dict.get('VERSION'),
         package_dir={'': 'get_time'},
+        packages=find_packages(where='get_time'),
 
         url=env_dict.get('GITHUB_URL'),
         description='time auxiliary module',
 
         py_modules=env_dict.get('PY_MODULES').split(',') if env_dict.get('PY_MODULES') else [],
         install_requires=get_requirements(),
+        python_requires=">=3.10",
     )
